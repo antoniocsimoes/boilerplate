@@ -1,0 +1,23 @@
+//- index.pug
+doctype html
+html
+    include includes/head
+
+    body
+        include includes/header
+        
+        .main
+            h1 Boilerplate
+            p Personal Boilerplate for simple front-end projects.
+            img(src='/img/html5-logo.png')
+            p: strong Stack:
+            ul
+                li Sass
+                li Bourbon (Sass Library)
+                li Neat (Grid System)
+                li Pug (Template Engine) 
+                    strike old Jade
+                li GulpJS
+                li VanillaJS + self building Modules
+        
+        include includes/footer

@@ -1,0 +1,17 @@
+// Bourbon and Neat
+@import 'bourbon';
+@import 'neat';
+
+// Main file
+@import '_reset';
+@import '_config';
+@import '_base';
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+
+
+// Pages
+
+@import 'pages/index';

@@ -1,0 +1,21 @@
+// Neat Grid
+// See http://neat.bourbon.io/ for more
+$visual-grid: true;
+$visual-grid-color: #000 !global;
+$column: 90px !global;
+$gutter: 20px !global;
+$grid-columns: 12 !global;
+$max-width: 1200px !global;
+$border-box-sizing: true !global;
+
+// Neat Breakpoints
+$tablet: new-breakpoint(max-width 768px);
+$mobile: new-breakpoint(max-width 425px);
+
+// Colors
+
+$red: #f00;
+
+
+// Other Configs
+$prefixer: webkit moz spec;

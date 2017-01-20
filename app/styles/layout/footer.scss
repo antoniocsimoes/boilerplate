@@ -1,0 +1,17 @@
+// Example code
+// Remove This
+
+footer {
+    width: 100%;
+    background-color: dimgray;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    a {
+        color: white;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
