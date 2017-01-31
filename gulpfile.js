@@ -63,11 +63,17 @@ gulp.task('img', function() {
     .pipe(gulp.dest('build/img'));
 });
 
+gulp.task('fonts', function() {
+    return gulp.src('app/fonts/**/*')
+    .pipe(gulp.dest('build/fonts'));
+})
+
 gulp.task('watch', function() {
 	gulp.watch('app/styles/**/*.scss', ['css']);
 	gulp.watch('app/scripts/**/*.js', ['js']);
 	gulp.watch('app/templates/**/*.pug', ['html']);
-	gulp.watch('app/templates/**/*.{jpg,png,gif}', ['img']);
+    gulp.watch('app/templates/**/*.{jpg,png,gif}', ['img']);
+	gulp.watch('app/fonts/**/*', ['fonts']);
 });
 
 gulp.task('serve', ['html', 'js', 'css', 'img', 'browser-sync', 'watch']);
