@@ -1,6 +1,6 @@
 {
   "name": "boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Boilerplate for simple HTML, CSS and JS Projects.",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,16 @@
   },
   "author": "Warley Franco",
   "license": "MIT",
-  
   "devDependencies": {
-    "browser-sync": "^2.18.6",
+    "browser-sync": "^2.24.6",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.0",
-    "gulp-uglify": "^2.0.0",
-    "node-bourbon": "^4.2.8",
-    "node-neat": "^1.7.2"
-  }
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  },
+  "repository": "git@github.com:WarleyFranco/boilerplate.git"
 }
